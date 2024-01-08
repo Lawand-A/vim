@@ -22,10 +22,11 @@ inoremap <C-S> <C-O>:silent w<CR>
 vnoremap <C-S> <C-C>:w<CR>
 
 
-" Map Ctrl+V to paste from the system clipboard without changing mode
-nnoremap <C-V> :silent normal! "*p<CR>
-inoremap <C-V> <C-O>:silent normal! "*p<CR>
-vnoremap <C-V> :silent normal! "*p<CR>
+" Map Ctrl+P to paste from the system clipboard without changing mode
+nnoremap <C-P> :silent normal! "*p<CR>
+inoremap <C-P> <C-O>:silent normal! "*p<CR>
+vnoremap <C-P> :silent normal! "*p<CR>
+
 
 
 call plug#begin() 
