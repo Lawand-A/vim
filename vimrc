@@ -26,6 +26,9 @@ Plug 'prabirshrestha/vim-lsp'
 "Detect the language you working on to install it with the command: LspInstallServer
 Plug 'mattn/vim-lsp-settings' 
 
+"auto completion popup
+Plug 'vim-scripts/AutoComplPop' 
+
 call plug#end() 
 
 
