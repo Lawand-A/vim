@@ -16,6 +16,18 @@ set nobackup
   "nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
 
 
+" Map Ctrl+S to save the file without changing mode
+nnoremap <C-S> :w<CR>
+inoremap <C-S> <C-O>:silent w<CR>
+vnoremap <C-S> <C-C>:w<CR>
+
+
+" Map Ctrl+V to paste from the system clipboard without changing mode
+nnoremap <C-V> :silent normal! "*p<CR>
+inoremap <C-V> <C-O>:silent normal! "*p<CR>
+vnoremap <C-V> :silent normal! "*p<CR>
+
+
 call plug#begin() 
 
 Plug 'preservim/nerdtree' 
