@@ -23,7 +23,7 @@ Plug 'preservim/nerdtree'
 "lsp plugins
 "Language server connection plugin
 Plug 'prabirshrestha/vim-lsp'
-"Detect the language you working on to install it
+"Detect the language you working on to install it with the command: LspInstallServer
 Plug 'mattn/vim-lsp-settings' 
 
 call plug#end() 
