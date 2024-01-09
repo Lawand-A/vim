@@ -45,6 +45,10 @@ Plug 'mattn/vim-lsp-settings'
 "auto completion popup
 Plug 'vim-scripts/AutoComplPop' 
 
+"Show all buffers as tabs
+Plug 'ap/vim-buftabline'
+
+
 call plug#end() 
 
 
@@ -65,7 +69,8 @@ augroup lsp_install
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
 
-
+" Show tab buffers as tab only if ther is more than one buffer open
+let g:buftabline_show = 1
 
 
 
