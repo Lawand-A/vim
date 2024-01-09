@@ -11,6 +11,9 @@ set noswapfile
 set noundofile
 set nobackup
 
+"highlight search
+set hlsearch
+
 "If you want a vim builtin NERdtree alternative
   "inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
   "nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
