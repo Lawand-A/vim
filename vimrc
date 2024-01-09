@@ -72,7 +72,7 @@ augroup lsp_install
 augroup END
 
 """"""""""Buffer changes""""""""""
-" Show tab buffers as tab only if ther is more than one buffer open
+" Show tab buffers as tab only if there is more than one buffer open
 let g:buftabline_show = 1
 "Show buffer numbers
 let g:buftabline_numbers = 1
