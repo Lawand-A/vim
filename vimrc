@@ -14,6 +14,7 @@ set nobackup
 "highlight search
 set hlsearch
 
+""""""""""Key mappings""""""""""
 "If you want a vim builtin NERdtree alternative
   "inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
   "nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
@@ -30,6 +31,7 @@ nnoremap <C-P> :silent normal! "*p<CR>
 inoremap <C-P> <C-O>:silent normal! "*p<CR>
 vnoremap <C-P> :silent normal! "*p<CR>
 
+"""""""""""""""""""""""""""""""""
 
 
 call plug#begin() 
@@ -69,8 +71,13 @@ augroup lsp_install
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
 
+""""""""""Buffer changes""""""""""
 " Show tab buffers as tab only if ther is more than one buffer open
 let g:buftabline_show = 1
-
+"Show buffer numbers
+let g:buftabline_numbers = 1
+"Show + if the buffer is 'modified'
+let g:buftabline_indicators = 1
+"""""""""""""""""""""""""""""""""""
 
 
