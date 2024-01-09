@@ -31,6 +31,17 @@ nnoremap <C-P> :silent normal! "*p<CR>
 inoremap <C-P> <C-O>:silent normal! "*p<CR>
 vnoremap <C-P> :silent normal! "*p<CR>
 
+
+
+" Map Shift+n to :bn in normal and insert mode 
+nnoremap <S-n> :bn<CR>
+inoremap <S-n> <Esc>:bn<CR>a
+
+" Map Shift+p to :bp in normal and insert mode
+nnoremap <S-p> :bp<CR>
+inoremap <S-p> <Esc>:bp<CR>a
+
+
 """""""""""""""""""""""""""""""""
 
 
