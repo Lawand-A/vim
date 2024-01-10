@@ -65,6 +65,13 @@ Plug 'ap/vim-buftabline'
 call plug#end() 
 
 
+" Disable highlights for diagnostics
+let g:lsp_diagnostics_highlights_enabled = 0
+
+" Disable virtual text for diagnostics
+let g:lsp_diagnostics_virtual_text_enabled = 0
+
+
 
 
 function! s:on_lsp_buffer_enabled() abort
