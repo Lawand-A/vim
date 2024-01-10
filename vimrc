@@ -73,7 +73,7 @@ let g:lsp_diagnostics_virtual_text_enabled = 0
 
 "Show Diagnostics in a popup for the current cursor line 
 let g:lsp_diagnostics_float_cursor = 1
-let g:lsp_diagnostics_float_delay = 400
+let g:lsp_diagnostics_float_delay = 1500
 
 
 
