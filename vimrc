@@ -71,6 +71,9 @@ let g:lsp_diagnostics_highlights_enabled = 0
 " Disable virtual text for diagnostics
 let g:lsp_diagnostics_virtual_text_enabled = 0
 
+"Show Diagnostics in a popup for the current cursor line 
+let g:lsp_diagnostics_float_cursor = 1
+let g:lsp_diagnostics_float_delay = 400
 
 
 
