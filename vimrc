@@ -4,7 +4,7 @@ set number
 set tabstop=4
 set shiftwidth=4
 set mouse=a
-colorscheme habamax " Or delek  
+colorscheme habamax " Or delek Or muphy
 
 "no extra file creations
 set noswapfile
